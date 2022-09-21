@@ -10,6 +10,3 @@ private var decimals:Int =   0
 thousands = Int(hobbs/1000)
 hundreds = Int((Int(hobbs) - thousands*1000)/100)
 tens = Int((Int(hobbs) - thousands*1000 - hundreds*100)/10 )
-hours = Int( (Int(hobbs) - thousands * 1000 - hundreds * 100 - tens * 10 ))
-
-
